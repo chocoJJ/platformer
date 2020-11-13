@@ -175,7 +175,7 @@ mySprite = sprites.create(img`
     `, SpriteKind.Player)
 controller.moveSprite(mySprite, 100, 0)
 mySprite.ay = 350
-mySprite.setPosition(37, 67)
+mySprite.setPosition(38, 67)
 scene.cameraFollowSprite(mySprite)
 scene.setBackgroundColor(9)
 level = 0
